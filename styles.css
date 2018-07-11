@@ -1,0 +1,78 @@
+ul li{
+	list-style:none;
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+header{
+  position: relative;
+	top: 0;
+	text-align: right;
+	margin: 20px;
+}
+
+.logo{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 200px;
+}
+
+.search{
+	display:block;
+	margin: 30px auto; /*30px -- left_right auto-- bottom_top */
+	width: 600px;
+	height: 35px;
+	font-size: 16px;
+}
+
+input[type="button"]{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.buttons .luckyButton {
+	width: 150px;
+	height: 30px;
+}
+
+.buttons .searchButton {
+	width: 150px;
+	height: 30px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%; 
+	background-color: #f2f2f2;
+}
+
+footer .bottomList{
+		border-top: 1px solid #aaa;
+	  display: inline;
+}
+
+footer .topList{
+		border-top: 1px solid #aaa;
+	  border-bottom: 1px solid #aaa;
+}
+
+footer .bottomList .left{
+	float: left;
+}
+
+footer .bottomList .right{
+	float: right;
+	margin-right: 20px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
